@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: cornflowerblue;
+}
+
+input{
+    padding: -1;
+}
+
+input[type=submit]{
+    transition-duration: 0.5s;
+}
+
+input[type=submit]:hover{
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+/*sei que ficou simples, mas não tive tantas ideias para o site :(
+tudo foi feito à mão com conhecimento do vinicius :)*/
