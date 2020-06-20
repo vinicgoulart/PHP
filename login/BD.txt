@@ -1,0 +1,8 @@
+create database uninove;
+use uninove;
+create table clientes(
+	id int primary key auto_increment,
+	nome varchar(250),
+	idade int,
+	senha varchar(250)
+	);
